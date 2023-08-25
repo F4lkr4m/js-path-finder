@@ -1,0 +1,39 @@
+.mapDrawer-root {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+}
+
+.mapDrawer-row {
+  display: flex;
+  column-gap: 3px;
+}
+
+.mapDrawer-cell {
+  width: 10px;
+  height: 10px;
+}
+
+.mapDrawer-wall {
+  background-color: tomato;
+}
+
+.mapDrawer-free {
+  background-color: aqua;
+}
+
+.mapDrawer-list {
+  background-color: green;
+}
+
+.mapDrawer-visited {
+  background-color: slateblue;
+}
+
+.mapDrawer-start {
+  background-color: yellow;
+}
+
+.mapDrawer-end {
+  background-color: gold;
+}
